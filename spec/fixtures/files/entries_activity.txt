@@ -8,15 +8,4 @@
    {"amount"=>0, "date"=>"#{Date.today}"}],
  "months"=>[{"amount"=>0, "month"=>"#{Date::MONTHNAMES[Date.today.months_ago(5).mon].slice(0, 3)}"}, {"amount"=>2, "month"=>"#{Date::MONTHNAMES[Date.today.months_ago(4).mon].slice(0, 3)}"}, {"amount"=>0, "month"=>"#{Date::MONTHNAMES[Date.today.months_ago(3).mon].slice(0, 3)}"}, {"amount"=>2, "month"=>"#{Date::MONTHNAMES[Date.today.months_ago(2).mon].slice(0, 3)}"}, {"amount"=>0, "month"=>"#{Date::MONTHNAMES[Date.today.months_ago(1).mon].slice(0, 3)}"}, {"amount"=>14, "month"=>"#{Date::MONTHNAMES[Date.today.months_ago(0).mon].slice(0, 3)}"}],
  "sentiment_week"=>[{"id"=>Entry.last.sentiments[0].id, "name"=>"Happy", "taggings_count"=>7}, {"id"=>Entry.first.sentiments[0].id, "name"=>"Sad", "taggings_count"=>7}]}
-
-
-{"week"=>
-  [{"amount"=>0, "date"=>"2018-02-05"},
-   {"amount"=>0, "date"=>"2018-02-06"},
-   {"amount"=>0, "date"=>"2018-02-07"},
-   {"amount"=>0, "date"=>"2018-02-08"},
-   {"amount"=>0, "date"=>"2018-02-09"},
-   {"amount"=>14, "date"=>"2018-02-10"},
-   {"amount"=>1, "date"=>"2018-02-11"}],
- "months"=>[{"amount"=>0, "month"=>"Sep"}, {"amount"=>2, "month"=>"Oct"}, {"amount"=>0, "month"=>"Nov"}, {"amount"=>2, "month"=>"Dec"}, {"amount"=>0, "month"=>"Jan"}, {"amount"=>15, "month"=>"Feb"}],
- "sentiment_week"=>[{"id"=>1061, "name"=>"Angry", "taggings_count"=>7}, {"id"=>1059, "name"=>"Sad", "taggings_count"=>7}]}
+    
