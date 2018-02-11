@@ -8,6 +8,7 @@ RSpec.describe Api::V1::ActivityController, type: :request do
     2.times { FactoryBot.create(:entry, user: user, created_at: Date.today.months_ago(2)) }
     2.times { FactoryBot.create(:entry, user: user, created_at: Date.today.months_ago(4)) }
     2.times { FactoryBot.create(:entry, user: user, created_at: Date.today.months_ago(12)) }
+    FactoryBot.create(:entry, user: user, sentiment_list: 'Angry')
   end
 
   describe 'GET /v1/activity' do

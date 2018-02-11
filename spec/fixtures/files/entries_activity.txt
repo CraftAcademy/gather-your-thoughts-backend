@@ -8,3 +8,4 @@
    {"amount"=>0, "date"=>"#{Date.today}"}],
  "months"=>[{"amount"=>0, "month"=>"#{Date::MONTHNAMES[Date.today.months_ago(5).mon].slice(0, 3)}"}, {"amount"=>2, "month"=>"#{Date::MONTHNAMES[Date.today.months_ago(4).mon].slice(0, 3)}"}, {"amount"=>0, "month"=>"#{Date::MONTHNAMES[Date.today.months_ago(3).mon].slice(0, 3)}"}, {"amount"=>2, "month"=>"#{Date::MONTHNAMES[Date.today.months_ago(2).mon].slice(0, 3)}"}, {"amount"=>0, "month"=>"#{Date::MONTHNAMES[Date.today.months_ago(1).mon].slice(0, 3)}"}, {"amount"=>14, "month"=>"#{Date::MONTHNAMES[Date.today.months_ago(0).mon].slice(0, 3)}"}],
  "sentiment_week"=>[{"id"=>Entry.last.sentiments[0].id, "name"=>"Happy", "taggings_count"=>7}, {"id"=>Entry.first.sentiments[0].id, "name"=>"Sad", "taggings_count"=>7}]}
+    
