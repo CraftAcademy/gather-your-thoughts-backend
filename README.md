@@ -32,8 +32,11 @@ shoulda-matchers
 rspec-rails  
 factory_bot_rails  
 
-## Text Analysis
-For text analysis we made use of the Microsoft Azure Text Analysis API.
+### Other Technologies
+**Microsoft Azure Text Analystics API** for label suggestion  
+**Heroku** for hosting the application  
+**Semaphore** for continuous integration  
+**Coveralls** for test coverage
 
 
 ### Contributors
